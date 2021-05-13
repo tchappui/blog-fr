@@ -1,0 +1,85 @@
+baseURL = "https://chappuis.dev/"
+languageCode = "fr"
+title = "Thierry Chappuis"
+theme = "blackburn"
+author = "Thierry Chappuis"
+copyright = "&copy; 2021. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Développeur, Formateur et Mentor Python & Django"
+  brand = "Chappuis.io"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Accueil"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Articles"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Etiquettes"
+    pre = "<i class='fa fa-tag fa-fw'></i>"
+    weight = 3
+    identifier = "tags"
+    url = "/tags/"
+  [[menu.main]]
+    name = "A propos"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "a-propos"
+    url = "/a-propos/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 5
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter="tchappui"
+  # gnusocial="*"
+  # facebook="*"
+  # weibo="*"
+  # tumblr="*"
+  # instagram="*"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+  linkedin="tchappui"
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="tchappui"
+  # gitlab="*"
+  # bitbucket="*"
+  # stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  # keybase="*"
