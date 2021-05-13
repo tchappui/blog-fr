@@ -3,7 +3,7 @@ languageCode = "fr"
 title = "Thierry Chappuis"
 theme = "blackburn"
 author = "Thierry Chappuis"
-copyright = "&copy; 2021. All rights reserved."
+copyright = "&copy; 2021. Tous droits réservés."
 canonifyurls = true
 paginate = 10
 
@@ -13,7 +13,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Développeur, Formateur et Mentor Python & Django"
+  subtitle = "Développeur, Formateur et Mentor / Python & Django"
   brand = "Chappuis.io"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
@@ -47,11 +47,6 @@ paginate = 10
     weight = 4
     identifier = "a-propos"
     url = "/a-propos/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 5
-    url = "/contact/"
 
 [social]
   # Link your social networking accouns to the side menu
